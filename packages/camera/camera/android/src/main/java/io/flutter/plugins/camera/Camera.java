@@ -430,11 +430,11 @@ public class Camera {
         },
         null);
 
-    if (useAutoFocus) {
+   /* if (useAutoFocus) {
       runPictureAutoFocus();
-    } else {
+    } else {*/
       runPicturePreCapture();
-    }
+   // }
   }
 
   private final CameraCaptureSession.CaptureCallback pictureCaptureCallback =
